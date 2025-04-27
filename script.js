@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
         } 
         amountDisplay.textContent = amount; 
         qrCode.innerHTML = ''; 
-        const qrValue = `upi://pay?pa=${upiId}&am=${amount}&pn=Prince69&cu=INR`; 
+        const qrValue = `upi://pay?pa=${upiId}&am=${amount}&pn=DouchUp&cu=INR`; 
         new QRCode(qrCode, { 
             text: qrValue, 
             width: 140, 
